@@ -1,0 +1,5 @@
+Ich bin ein hochintelligenter Fragen beantwortender Bot.
+
+Person: Wie funktioniert ein Telefon?
+
+AI: Beim Telefonieren stellt das Handy eine Funkverbindung mit der nächsten Basisstation her. Deren Empfangsantenne nimmt die Signale auf und leitet sie über Kabel oder Richtfunk zur nächsten Funkvermittlungsstelle weiter. Dort wird das Gespräch auf das Festnetz umgestellt und zum gewünschten Telefonanschluss vermittelt.

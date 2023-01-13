@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:keepScreenOn="true"
+    tools:context=".EmulationActivity"
+    tools:ignore="RtlHardcoded">
+
+    <emu.skyline.views.FixedRatioSurfaceView
+        android:id="@+id/game_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <emu.skyline.input.onscreen.OnScreenControllerView
+        android:id="@+id/on_screen_controller_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/perf_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="@dimen/onScreenItemHorizontalMargin"
+        android:layout_marginTop="5dp"
+        tools:text="60 FPS\n16.6±0.10ms"
+        android:textColor="@color/colorPerfStatsPrimary" />
+
+    <ImageButton
+        android:id="@+id/on_screen_controller_toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="@dimen/onScreenItemHorizontalMargin"
+        android:background="?android:attr/actionBarItemBackground"
+        android:padding="8dp"
+        android:src="@drawable/ic_show"
+        app:tint="#40FFFFFF"
+        tools:ignore="ContentDescription" />
+</FrameLayout>

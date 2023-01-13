@@ -1,0 +1,7 @@
+tkinter
+opencv-python
+csv
+numpy
+pillow
+face_recognition
+webbrowser

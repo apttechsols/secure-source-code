@@ -1,0 +1,5 @@
+#please type emails you want to send email on, you can import csv file too for emails or feel free to edit emails in below pattern and remove this line to avoid any errors
+
+sample@email.com
+sample@email.com
+sample@email.com

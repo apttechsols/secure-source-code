@@ -1,0 +1,331 @@
+/*
+main css
+lady gaga 4 ever
+*/
+
+/*
+import font
+*/
+@font-face {font-family: "FKG"; src: url("/data/FKGrotesk-Monospaced.woff");}
+
+/*
+html, body
+globals
+*/
+* {user-select: none;}
+html, body {margin: 0; padding: 0; font-family: 'FKG', monospace; font-size: 2.5vh; color: black; background: white; overflow-y: hidden;}
+
+a, a:visited {color: black; text-decoration: none;}
+h1, h2 {margin: 0; padding: 0;}
+
+* {scrollbar-width: thin; scrollbar-color: dark;}
+::-webkit-scrollbar-track {background: transparent;}
+::-webkit-scrollbar {width: 0.5vh; height: 0.5vh; background: transparent;}
+::-webkit-scrollbar-thumb {background: white;}
+
+::selection {color: white; background: black;}
+
+/*
+blokace pro vertikalni zarizeni
+*/
+@media (max-aspect-ratio: 1/1) {
+  #content, #console, #menu {display: none !important;}
+}
+#turnHorizontal {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80vw; height: 80vh; background: url('/data/turnHorizontal.png') center center no-repeat; background-size: contain; transition: all 1s cubic-bezier(0.25, 1, 0.5, 1);}
+
+/*
+form buttons
+inputs, textareas, ...
+*/
+input, textarea {font-family: 'FKG', monospace; border: 0; outline: 0; padding: 1vh; font-size: 2.5vh; border-bottom: 0.5vh solid transparent;}
+  input[type="submit"] {background: #dadada;}
+  input[type="submit"]:hover {cursor: pointer; border-bottom: 0.5vh solid green;}
+  input[type="checkbox"] {width: 2.5vh; height: 2.5vh; position: absolute; margin-left: 1vh;}
+input:focus, textarea:focus {border-bottom: 0.5vh solid blue !important;}
+
+/*
+EaseOutQuart
+cubic-bezier(0.25, 1, 0.5, 1)
+EaseOutVyjedepres100%
+cubic-bezier(0.33, 1.33, 0.64, 1)
+*/
+
+/*
+general funkce na divy
+*/
+.fadeout {opacity: 0 !important; transform: translate(-50%, -50%) scale(0.9) !important;}
+.fadeoutUp {opacity: 0 !important; transform: translate(-50%, -50%) scale(1.1) !important;}
+
+.grabber {cursor: grab !important; user-select: none !important;}
+  .grabbed {cursor: grabbing !important;}
+  .grabbed::-webkit-scrollbar-thumb {background: blue !important;}
+
+.moveable {cursor: move !important; user-select: none !important;}
+  .moveable img {pointer-events: none !important;}
+  .moving {transition-property: none !important;}
+
+/*
+loading
+*/
+.loading {position: fixed; z-index: 9999;}
+  .loading.t, .loading.b {left: 0; width: 100vw; height: 0.5vh; background: linear-gradient(to right, transparent 90%, blue 10%); background-size: 200% 100%; animation: loading-x 2s infinite linear;}
+  .loading.r, .loading.l {top: 0; width: 0.5vh; height: 100vh; background: linear-gradient(to bottom, transparent 90%, blue 10%); background-size: 100% 200%; animation: loading-y 2s infinite linear;}
+  .loading.t {top: 0;}
+  .loading.r {right: 0; animation-delay: 1s;}
+  .loading.b {bottom: 0; animation-direction: reverse; animation-delay: -1s;}
+  .loading.l {left: 0; animation-direction: reverse;}
+    .loading.post.t {width: 20vh;}
+
+@keyframes loading-x {
+    0%   {background-position-x: 200%;}
+    50% {background-position-x: 90%;}
+}
+@keyframes loading-y {
+    0%   {background-position-y: 200%;}
+    50% {background-position-y: 90%;}
+}
+
+/*
+centered divs
+& ini divy
+*/
+/* content of page DIV, project DIV, img in project DIV, all project IMAGES */
+#content, .prj, .prj img, .post {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%) scale(1); opacity: 1; transform-origin: center center;
+}
+/* content of page DIV */
+#content {min-width: 100vw; height: 100%; overflow-x: auto; transition: all 1s cubic-bezier(0.25, 1, 0.5, 1);}
+  #content::-webkit-scrollbar-thumb {background: #242424;}
+
+
+/*
+konzole nahore pri loadingu
+*/
+#console {position: fixed; top: 0; left: 0; width: 98vw; height: 40vh; margin-top: -36.75vh; overflow-y: scroll; padding: 1vh 2vh; background: white; color: black; border-bottom: 0.15vh solid black; transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1); z-index: 99;}
+  #console.log {background: black; color: white; margin-top: 0;}
+  /*#console*/ ul {margin: 0; padding: 0; margin-left: 3vh;}
+  /*#console*/ li {list-style-type: "› "; margin: 0.5vh auto;}
+  /* json colors */
+  .n {color: blue;}
+  .k {font-style: italic;}
+  .s {color: green;}
+  .b, .null {color: red;}
+  /* button to switch console modes*/
+  #console a, .consoleIcon {color: black; transition: all 0.5s cubic-bezier(0.33, 1.33, 0.64, 1);}
+    #console.log a {color: white;}
+
+/* menu TOP ==> in console */
+@-moz-document url-prefix() {.menuTop {margin-bottom: 1vh;}}
+.menuTop .tools {float: right; margin-right: 0vh;}
+
+/* width of blocks in console acc to side menu */
+#console ul, .menuTop {width: calc(100vw - 13vh);}
+
+  .menuTop .tools * {float: right; display: inline-block;}
+  .memexIcon, .listIcon, .consoleIcon {width: 2vh; height: 2vh; margin: 0.5vh 1vh; transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);}
+    .memexIcon {background: url('/data/memexN.png') center center; background-size: cover;}
+    .listIcon {background: url('/data/archiveN.png') center center; background-size: cover;}
+    .consoleIcon {background: url('/data/consoleN.png') center center; background-size: cover;}
+      #console.log .memexIcon, #console.log .listIcon, #console.log .consoleIcon {filter: invert(100%);}
+        .langIcon {margin-left: 0.5vh;}
+  .menuTop .tools a:hover, .consoleIcon:hover, .langIcon:hover {opacity: 0.5; cursor: pointer;}
+
+/* blinder ==> pri nacitani zaslepi vlozene html, aby se na nej nedalo klikat*/
+#blinder {position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 20;}
+
+
+/*
+bocni menu vpravo, i s obsahem
+uuuuuh (pain)
+*/
+#menu {position: fixed; top: 0; right: 0; width: 9.15vh; height: 100vh; z-index: 100; background: white; transition: right 0.5s cubic-bezier(0.25, 1, 0.5, 1);}
+  #menu.hidden {right: -9.15vh;}
+
+#menu .title, #menu .kurator {writing-mode: vertical-rl; text-orientation: mixed;}
+  #kuratori, #texty {float: right; display: inline-block; position: absolute; top: 0;}
+    #kuratori {left: 0;}
+    #texty {right: 0;}
+
+  #menu .kurator {height: 50vh; width: 4vh; line-height: 4.3vh /* .3 proto, ze je 2×0.15vh border u child spanu */; text-align: center; font-size: 2vh; border-left: 0.15vh solid black;}
+    .kurator:nth-child(1) {border-bottom: 0.15vh solid black;}
+
+  #menu .title {height: calc(100vh / 3); width: 5vh; line-height: 5.3vh /* .3 proto, ze je 2×0.15vh border u child spanu */; text-align: center; transform: translateX(-5.15vh); border: 0.15vh solid black; border-right: none; background: white;}
+      #t1 .title {margin-top: -0.15vh;}
+      #t3 .title {margin-bottom: -0.15vh;}
+    #menu .title:hover, #menu .kurator:hover {cursor: pointer;}
+    #menu .title span, #menu .kurator span {padding: 0.75vh 0.25vh; transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);}
+    #menu .title:hover span, #menu .text.show .title span, #menu .kurator:hover span, #menu .kurator.selected span {background: black; color: white;}
+    #menu .title .blinder {position: absolute; height: calc(100vh / 3); width: 2vh; background: white; margin-right: -6.5vh;}
+      #t2 .title {margin-top: calc(100vh / 3);}
+      #t3 .title {margin-top: calc(100vh / 3 * 2);}
+
+  #menu .text {width: 65vw; height: 100vh; background: white; position: absolute; border-left: 0.15vh solid black;}
+
+      .closeMenu {width: 3vh; height: 3vh; background: url('/data/dropDown.png') center center; background-size: cover; transform: rotate(-90deg); position: absolute; left: calc(65vw + 5vh + 1vh); margin-top: 1vh; transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);}
+      .closeMenu:hover {filter: brightness(50%);}
+
+      .text {right: -65vw; transition: right 1s cubic-bezier(0.25, 1, 0.5, 1);}
+      .text.show {right: 5.15vh;}
+
+  #menu .content {width: 59vw; height: 90vh; padding: 2vh; position: absolute; margin-top: 3vh; left: 0vw; overflow-y: scroll; opacity: 0; transition: all 1s cubic-bezier(0.25, 1, 0.5, 1);}
+    #menu .content.loaded {left: 2vw; opacity: 1;}
+    #menu .content::-webkit-scrollbar-thumb {background: black;}
+
+  #menu .content h1 {margin: 0; padding: 0; margin-bottom: 3vh; font-weight: normal;}
+    #menu .content p.l {font-size: 3.5vh; margin-top: 7vh;}
+    #menu .content p {vertical-align: middle; pointer-events: all;}
+    #menu .content img {max-height: 13vh; max-width: 20vh; margin: 2vh 7vh 2vh 0vh; pointer-events: none; vertical-align: middle; display: inline-block;}
+
+    #menu a {color: blue;}
+      #menu a:hover {text-decoration: underline;}
+
+/*
+projects of blackbox
+aphrodite lady seashell bikini
+*/
+.prj {min-width: 20vw; min-height: 35vh; z-index: 10;} /* animation: fly 40s infinite; */
+.prj * {pointer-events: none;}
+.prj a {pointer-events: all;}
+
+.prj:hover {cursor: pointer; z-index: 99;}
+  #shadowMaster {cursor: auto; z-index: 999;}
+.line {position: absolute; height: 0.15vh; background: black; z-index: 0; transition: all 0.3s cubic-bezier(0.33, 1.33, 0.64, 1); font-size: 1.5vh;} /* animation: polet 5s infinite; */
+@keyframes polet {
+  0%    {opacity: 1;}
+  50%   {opacity: 0.5;}
+  100%  {opacity: 1;}
+}
+  .keys {text-align: center; width: 100%; opacity: 0; transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1); padding: 1.5vh; color: gray; margin-top: -1vh; float: left;}
+  .line:hover .keys {opacity: 1;}
+  .line:hover {z-index: 99; background: gray;}
+.prj img {width: auto; height: auto; max-height: 25vh; max-width: 25vh; transition: all 1s cubic-bezier(0.33, 1.33, 0.64, 1); /*animation: fly infinite; animation-play-state: running;*/}
+@keyframes fly {
+  0%    {transform: translate(-50%, -50%);}
+  25%    {transform: translate(-48%, -51%);}
+  50%   {transform: translate(-52%, -49%);}
+  75%   {transform: translate(-53%, -52%);}
+  100%  {transform: translate(-50%, -50%);}
+}
+  .prj img:first-child {z-index: 98;}
+  .prj:hover img, #shadowMaster img {transform: translate(-50%, -50%) scale(1.1);}
+  .prj .title {position: absolute; bottom: 0; left: 50%; transform: translate(-50%, 0%); background: white; padding: 0.25vh; word-break: keep-all; white-space: nowrap; z-index: 99;}
+
+    /* animace pri presunu do blackbox() */
+    .mainPic {transition: all 1s cubic-bezier(0.33, 1.33, 0.64, 1);}
+    .sidekick, .prj .title {transition: all 0.25s cubic-bezier(0.33, 1.33, 0.64, 1);}
+    .sidekick.away, .prj .title.away {transform: translate(-50%, -50%) scale(0.3) !important; margin: 0 !important;}
+                    .prj .title.away {z-index: 0 !important; bottom: 50% !important;}
+
+  /* pixelhelper prodluzuje obrazovku doprava */
+  #pixelhelper {width: 1px; height: 1px; position: absolute;}
+
+
+/*
+pics in project
+ju-das juda -a -as
+*/
+#blackbox {position: absolute; top: 0; left: 0; overflow: hidden; width: 100vw; height: 100vh;}
+.post {z-index: 1; transition: all 1s cubic-bezier(0.33, 1.33, 0.64, 1);}
+.post img {max-width: 20vw; max-height: 30vh; transition: all 0.3s cubic-bezier(0.33, 1.33, 0.64, 1);}
+  /* rozmery pro zvetsenou verzi */
+  .post.small img {max-width: 10vw; max-height: 15vh;}
+  .post.large img, .mainPic.large, .post.small.large img {max-width: 60vw; max-height: 70vh !important;}
+                   .mainPic.large {transform: translate(-50%, -50%) scale(1) !important; margin-top: -0.25vh;}
+
+  /* ikona na zvetseni obrazku v projektu */
+  .post .num, .bigPost {position: absolute; top: 100%; left: 0; margin-top: -4.5vh; margin-left: 1vh; padding: 1vh; background: white; font-size: 1.5vh;}
+              .bigPost {left: auto; right: 0; margin-left: 0vh; margin-right: 1vh; cursor: pointer; width: 2vh; text-align: center; background: black; color: white;}
+
+  .bigPost {background: url('/data/resize.png') center center; background-size: cover; opacity: 0;}
+  .bigPost, .moreInfo, .post .num {width: 1vh; height: 1vh; transition: all 0.3s cubic-bezier(0.33, 1.33, 0.64, 1); line-height: 1vh;}
+    .bigPost:hover, .moreInfo:hover {filter: brightness(50%);}
+      .post:hover .bigPost {opacity: 1;}
+      .post:hover .num {opacity: 0;}
+    .post .num {width: auto;}
+
+      /* ikona co prepina mezi plnym vyjetim .post.info */
+      .moreInfo {width: 3vh; height: 3vh; float: right; margin-top: 0; margin-right: 0.5vh; cursor: pointer; background: url('/data/dropDown.png') center center; background-size: cover;}
+        .moreInfo.up, .bigPost.up {transform: rotate(180deg);}
+
+  /* pokud neni obsah obrazek ale text ==> */
+  .post.info {width: 50vh; height: 6.9vh; overflow-y: hidden; background: white; border: 0.15vh solid black; transition-duration: 0.5s;}
+    .post.info.showInfo {height: 65vh;}
+
+    .post.info .content {height: 56vh; overflow-y: scroll; padding: 0vh 2vh 2vh 2vh; float: left; margin-top: 2vh; width: calc(100% - 4vh);}
+      .post.info .content::-webkit-scrollbar-thumb {background: black;}
+      .post.info .content li {list-style: none; padding-right: 4vh;}
+        .post.info .content a:hover {text-decoration: underline !important;}
+    .post.info .title {padding: 2vh; width: calc(100% - 4vh);}
+      .post.info .title .name {float: left; overflow-x: auto; width: 40.5vh;}
+    .post.info li .locate {display: none; float: right; margin-right: -4vh; background: url('/data/search.png') center center; background-size: cover; width: 3vh; height: 3vh; transition: opacity 0.3s cubic-bezier(0.25, 1, 0.5, 1);}
+        .post.info li:hover .locate {display: block;}
+        .post.info li .locate:hover {cursor: pointer; opacity: 0.5;}
+
+    /* pokud text utika, rozsiri se div*/
+    .post.info.wider {width: 80vh;}
+    .post.info.wider .name {width: 70.5vh;}
+
+
+/*
+list
+zobrazeni v tabulce
+*/
+#list, .admin {padding-top: calc(5vh + 2vh); padding-right: calc(9.15vh + 3.5vh); padding-bottom: 2vh; padding-left: 2vh; width: calc(100vw - 9.15vh - 3.5vh - 2vh - 0.5vh);}
+
+  #seznam {overflow-y: scroll; height: 91vh; padding-right: 0vh; width: calc(100vw - 9.15vh - 2vh - 2vh);}
+    #seznam::-webkit-scrollbar-thumb {background: black;}
+  #seznam table {width: 100%; max-width: calc(50vw - 9.15vh); border-collapse: collapse; font-size: 2vh; margin-left: calc(50vw - 9.15vh); position: relative;}
+  #seznam table tr {border-bottom: 0.15vh solid black;}
+    #seznam table tr.hidden td {opacity: 0;}
+    #seznam table tr.hidden {border-bottom-color: white;}
+
+    /* horni radek bude drzet nahore*/
+    #seznam table tr.search td {position: sticky; top: 0; background: white; padding-bottom: 1vh;}
+
+    #seznam table tr.selected {background: black no-repeat; color: white;}
+    #seznam table tr td {padding: 1vh 0vh; vertical-align: top; transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);}
+      #seznam table tr.selected td {padding: 1vh 1vh;}
+      #seznam table tr td:nth-child(2) {text-align: right;}
+
+    /* vyhledavani */
+    #seznam input {background: url('/data/search.png') center right no-repeat; background-size: 3vh 3vh; padding: 1vh 0vh;}
+
+
+
+/*
+ADMIN
+*/
+.admin a:hover {text-decoration: underline;}
+.logout, .deleteThis, .red {color: red;}
+  .logout:hover, .deleteThis:hover, .togglePrompt:hover {text-decoration: underline; cursor: pointer;}
+/* tabulka vypisu veci */
+.adminTable {border-collapse: collapse;}
+.adminTable tr td {padding: 1vh; transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1); border-bottom: 0.5vh solid transparent;}
+  .adminTable tr:first-child td  {background: black; color: white;}
+  .adminTable tr:not(:first-child):hover td {border-bottom: 0.5vh solid black;}
+    .adminTable tr td:nth-child(3) div {width: 70vh; overflow-x: auto;}
+    /*.adminTable tr td:nth-child(3) div:nth-child(2) {position: absolute;}*/
+
+  .admin input, .admin textarea {border-bottom: 0.5vh solid #dadada;}
+    .admin input[type="text"] {min-width: 30vw;}
+    .admin textarea {width: 50vw; height: 30vh;}
+  .admin input[type="submit"].reminder {background: lightgreen !important;}
+
+  .adminTable img, #fronta img {height: 17vh;}
+    #fronta table tr td:nth-child(1) {width: 20vh; text-align: center;}
+    #fronta table tr td:nth-child(2) {padding-left: 2vh; vertical-align: top;}
+  .wait span {animation: wait 1s infinite;}
+    .wait span:nth-child(2) {animation-delay: 0.33s;}
+    .wait span:nth-child(3) {animation-delay: 0.66s;}
+    .wait.big {font-size: 6vh;}
+  @keyframes wait {
+    80% {opacity: 0;}
+    81% {opacity: 1;}
+  }
+
+  .adminTable span, .adminTable a {margin: auto 0.5vh;}
+  .adminTable span:hover, .adminTable a:hover {cursor: pointer; text-decoration: underline;}
+  .adminTable span.selected, .adminTable a.selected {background: lightgreen;}
+  .adminTable span.not, .adminTable a.not {background: pink;}
+  #prompt {display: none; border: 0.25vh solid red; border-radius: 0.5vh; margin-bottom: 1vh; padding: 1vh; float: left;}
