@@ -1,0 +1,2 @@
+<?php require_once($_SERVER['DOCUMENT_ROOT'].'/system/plugin/Apt/Php/Script/validation_v1/index.php'); ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT']."/system/main/comman_control/_frontend_and_backend.php"); ?>

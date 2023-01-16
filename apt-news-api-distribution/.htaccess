@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteBase /
+ErrorDocument 404 /system/main/error_404/index.php

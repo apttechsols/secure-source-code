@@ -1,0 +1,192 @@
+<style>
+	.AptClassASelectBox{
+	    border: 1px solid #ccc;
+	    overflow: hidden;
+	}
+	.AptClassASelectInputBox{
+	    display: flex;
+	    background: #0c4da2;
+	    color: #fff;
+	    box-shadow: 2px 4px 10px 1px rgb(50, 70, 0);
+	}
+
+	.AptClassASelectInput{
+	    width: calc(100% - 30px);
+	    border: none;
+	    background: #0c4da2;
+	    color: #fff;
+	    font-size: 18px;
+	    font-weight: bold;
+	    padding: 5px;
+	}
+	.AptClassASelectOptionBox{
+	    background: red;
+	    padding: 0.01px 0px;
+	}
+	.AptClassASelectOption{
+	    color: #fff;
+	    overflow-x: auto;
+	    max-height: 250px;
+	    margin: 30px 0px 0px 0px;
+	    display: none;
+	}
+	.AptClassASelectOption li{
+	    cursor: pointer;
+	    font-weight: bold;
+	    padding: 5px;
+	    margin: 5px 0px;
+	}
+	.AptClassASelectOption li:hover{
+	    background: #fff;
+	    color: #0c4da2;
+	}
+</style>
+<script>
+	AptClassASelectBoxCreateName = [];
+	IsAptClassASelectBoxCreate = false;
+	function AptClassASelectBoxCreate(Data = {}){
+	    var CreateMethod = 'append';
+
+	    if(IsAptClassASelectBoxCreate != false){ if(Data['debugger'] == true){ console.log('Already in process [info] [AptClassASelectBox]'); } return false; }
+	    if(Data.hasOwnProperty('name') != true || Data.hasOwnProperty('placeholder') != true || typeof(Data['name']) != 'string' || (typeof(Data['name']) != 'string' && typeof(Data['name']) != 'number') || typeof(Data['placeholder']) != 'string' || (typeof(Data['option']) != 'object' && Data.hasOwnProperty('option') == true) || (Data.hasOwnProperty('eid') != true && Data.hasOwnProperty('eclass') != true && Data.hasOwnProperty('ename') != true && Data.hasOwnProperty('etag') != true) || (Data.hasOwnProperty('method') == true && Data['method'] != 'append' && Data['method'] != 'replace' && Data['method'] != 'insert') || (Data.hasOwnProperty('duplicate') == true && Data['duplicate'] != true && Data['duplicate'] != false)){ if(Data['debugger'] == true){ console.log('Invalid data received [Error] [AptClassASelectBox]'); } IsAptClassASelectBoxCreate = false; return false; }
+
+	    var AptClassASelectBoxCreateOption = '';
+	    if(Data.hasOwnProperty('option') == true){
+	        Data['option'].forEach(function(item){
+	            if(AptClassASelectBoxCreateOption.length == 0){
+	                AptClassASelectBoxCreateOption = '<li>'+item+'</li>';
+	            }else{
+	                AptClassASelectBoxCreateOption = AptClassASelectBoxCreateOption.concat('<li>'+item+'</li>');
+	            }
+	        });
+	    }
+
+	    if(Data.hasOwnProperty('duplicate') != true){
+	        Data['duplicate'] = true;
+	    }
+
+	    if(Data['duplicate'] == true){
+	        if(AptClassASelectBoxCreateName.includes(Data['name']) == true){
+	            if(Data['debugger'] == true){console.log('Already have '+Data['name']+' as a name [Error] [AptClassASelectBox]');} IsAptClassASelectBoxCreate = false; return false;
+	        }
+	    }
+
+	    AptClassASelectBoxCreateName.push(Data['name']);
+
+	    if(Data.hasOwnProperty('method') == true){
+	        CreateMethod = Data['method'];
+	    }
+
+	    IsAptClassASelectBoxCreate = true;
+
+	    if(CreateMethod == 'append'){
+	        if(Data.hasOwnProperty('eid') == true){
+	            $('#'+Data['eid']+':eq(0)').append("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }else if(Data.hasOwnProperty('eclass') == true){
+	            $('.'+Data['eclass']+':eq(0)').append("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }else if(Data.hasOwnProperty('ename') == true){
+	            $('[name ='+Data['ename']+']:eq(0').append("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }else if(Data.hasOwnProperty('etag') == true){
+	            $(Data['etag']+':eq(0)').append("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }
+	    }else if(CreateMethod == 'replace'){
+	        if(Data.hasOwnProperty('eid') == true){
+	            $('#'+Data['eid']+':eq(0)').replaceWith("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }else if(Data.hasOwnProperty('eclass') == true){
+	            $('.'+Data['eclass']+':eq(0)').replaceWith("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }else if(Data.hasOwnProperty('ename') == true){
+	            $('[name ='+Data['ename']+']:eq(0').replaceWith("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }else if(Data.hasOwnProperty('etag') == true){
+	            $(Data['etag']+':eq(0)').replaceWith("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }
+	    }else if(CreateMethod == 'insert'){
+	        if(Data.hasOwnProperty('eid') == true){
+	            $('#'+Data['eid']+':eq(0)').html("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }else if(Data.hasOwnProperty('eclass') == true){
+	            $('.'+Data['eclass']+':eq(0)').html("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }else if(Data.hasOwnProperty('ename') == true){
+	            $('[name ='+Data['ename']+']:eq(0').html("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }else if(Data.hasOwnProperty('etag') == true){
+	            $(Data['etag']+':eq(0)').html("<div Class='AptClassASelectBox' id='AptClassASelectBox"+Data['name']+"'><div class='AptClassASelectInputBox' id='AptClassASelectInputBox"+Data['name']+"'><input type='text' class='AptClassASelectInput AptClassASelectInput"+Data['name']+" "+Data['name']+"' id='"+Data['name']+"' name='"+Data['name']+"' placeholder='"+Data['placeholder']+"' /><i class='fa fa-caret-down AptClassASelectInputIcon' id='AptClassASelectInputIcon"+Data['name']+"' style='padding: 10px 0px;transition: transform 1s;'></i> </div><div class='AptClassASelectOptionBox' id='AptClassASelectOptionBox"+Data['name']+"'><div class='AptClassASelectOption' id='AptClassASelectOption"+Data['name']+"'>"+AptClassASelectBoxCreateOption+"</div></div></div>");
+	        }
+	    }
+
+	    $('.AptClassASelectInput'+Data['name']).click(function(){
+	        $('#AptClassASelectOption'+Data['name']).slideToggle( 'medium', function(){
+	            if($('#AptClassASelectInputIcon'+Data['name']).css('transform') != 'matrix(-1, 0, 0, -1, 0, 0)'){
+	                $('#AptClassASelectInputIcon'+Data['name']).css({'transform':'rotate(180deg)'});
+	            }else{
+	                $('#AptClassASelectInputIcon'+Data['name']).css({'transform':'rotate(0deg)'});
+	            }
+	            $('#'+Data['name']).trigger('submit');
+	        });
+
+	        eval('AptClassASelectInputVal'+Data['name'] + " = $('.AptClassASelectInput'+Data['name']).val()");
+	        eval('AptClassASelectInputValLen'+Data['name'] + " = $('.AptClassASelectInput'+Data['name']).val().length");
+
+	        eval('IsAptClassASelectInputVal'+Data['name'] + " = false");
+
+	        eval('IsAptClassASelectInputExtVal'+Data['name'] + " = false");
+	        document.querySelectorAll('#AptClassASelectOption'+Data['name']+' li').forEach(function (item) {
+	            if(eval('AptClassASelectInputVal'+Data['name']).toLowerCase()  == item.innerHTML.substring(0, eval('AptClassASelectInputValLen'+Data['name'])).toLowerCase()){
+	                item.style.display = 'block';
+	                eval('IsAptClassASelectInputVal'+Data['name'] + " = true");
+	            }else{
+	                item.style.display = 'none';
+	            }
+	            if(eval('AptClassASelectInputVal'+Data['name'])  == item.innerHTML){
+	                 eval('IsAptClassASelectInputExtVal'+Data['name'] + " = true");
+	            }
+	        });
+	        if(eval('IsAptClassASelectInputVal'+Data['name']) == false || eval('IsAptClassASelectInputExtVal'+Data['name']) == false){
+	            $('.AptClassASelectInput'+Data['name']).val('');
+	        }
+	    });
+
+	    $('.AptClassASelectInput'+Data['name']).keyup(function(){
+	        $('#AptClassASelectOption'+Data['name']).slideDown( 'medium', function(){
+	            $('#AptClassASelectInputIcon'+Data['name']).css({'transform':'rotate(180deg)'});
+	        });
+	        eval('AptClassASelectInputVal'+Data['name'] + " = $('.AptClassASelectInput'+Data['name']).val()");
+	        eval('AptClassASelectInputValLen'+Data['name'] + " = $('.AptClassASelectInput'+Data['name']).val().length");
+	        document.querySelectorAll('#AptClassASelectOption'+Data['name']+' li').forEach(function (item) {
+	            if(eval('AptClassASelectInputVal'+Data['name']).toLowerCase()  == item.innerHTML.substring(0, eval('AptClassASelectInputValLen'+Data['name'])).toLowerCase()){
+	                item.style.display = 'block';
+	            }else{
+	                item.style.display = 'none';
+	            }
+	        });
+
+	    });
+
+	   $('#AptClassASelectOption'+Data['name']+' li').click(function(){
+	        $('#'+Data['name']).val(this.innerHTML);
+	        eval('AptClassASelectInputVal'+Data['name'] + " = $('.AptClassASelectInput'+Data['name']).val()");
+	        eval('AptClassASelectInputValLen'+Data['name'] + " = $('.AptClassASelectInput'+Data['name']).val().length");
+	        document.querySelectorAll('#AptClassASelectOption'+Data['name']+' li').forEach(function (item) {
+	            if(eval('AptClassASelectInputVal'+Data['name']).toLowerCase()  == item.innerHTML.substring(0, eval('AptClassASelectInputValLen'+Data['name'])).toLowerCase()){
+	                item.style.display = 'block';
+	            }else{
+	                item.style.display = 'none';
+	            }
+	        });
+	        $('#AptClassASelectOption'+Data['name']).slideUp( 'medium', function(){ 
+	            if($('#AptClassASelectInputIcon'+Data['name']).css('transform') != 'matrix(-1, 0, 0, -1, 0, 0)'){
+	                $('#AptClassASelectInputIcon'+Data['name']).css({'transform':'rotate(180deg)'});
+	            }else{
+	                $('#AptClassASelectInputIcon'+Data['name']).css({'transform':'rotate(0deg)'});
+	            }
+	            $('#'+Data['name']).trigger('submit');
+	        });
+	   	});
+	   	if (typeof AptClassASelectBoxCreated == 'function') { 
+	   		AptClassASelectBoxCreated(Data['name']);
+	   	}
+
+	   if(Data['debugger'] == true){ console.log('Select box created successfully [Success] [AptClassASelectBox]'); } IsAptClassASelectBoxCreate = false; return false;
+	}
+	/*
+	    AptClassASelectBoxCreate({name:'Category',placeholder:'Choose a category',option:['Entertainment','Sports','Society','Politics','Offbeat','Humor','Lifestyle','Tech','Auto','Education','Inspirational','History','Science','Religion','Economics','Jobs'],eid:'CategoryBox'});
+	*/
+
+</script>

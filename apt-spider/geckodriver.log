@@ -1,0 +1,735 @@
+1645605631982	geckodriver	INFO	Listening on 127.0.0.1:35125
+1645605662039	geckodriver	INFO	Listening on 127.0.0.1:46025
+1645605699943	geckodriver	INFO	Listening on 127.0.0.1:47461
+1645605725309	geckodriver	INFO	Listening on 127.0.0.1:47573
+1645605837186	geckodriver	INFO	Listening on 127.0.0.1:57577
+1645605837193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemNV6Nu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645605837569	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemNV6Nu/search.json.mozlz4", (void 0)))
+1645605839501	Marionette	INFO	Listening on port 37183
+1645605839657	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645605839665	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:32875","noProxy":[],"sslProxy":"127.0.0.1:32875"}
+1645605841713	Marionette	INFO	Stopped listening on port 37183
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645605887435	geckodriver	INFO	Listening on 127.0.0.1:50979
+1645605888449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8iUrDf"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645605888844	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8iUrDf/search.json.mozlz4", (void 0)))
+1645605890929	Marionette	INFO	Listening on port 44769
+1645605890994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645605891000	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41871","noProxy":[],"sslProxy":"127.0.0.1:41871"}
+1645605893052	Marionette	INFO	Stopped listening on port 44769
+1645605919240	geckodriver	INFO	Listening on 127.0.0.1:51467
+1645605920252	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4fqBU3"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645605920616	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4fqBU3/search.json.mozlz4", (void 0)))
+1645605922470	Marionette	INFO	Listening on port 34347
+1645605922590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645605922596	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:46369","noProxy":[],"sslProxy":"127.0.0.1:46369"}
+1645605924668	Marionette	INFO	Stopped listening on port 34347
+1645605951466	geckodriver	INFO	Listening on 127.0.0.1:47813
+1645605952472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemvzQTM"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645605952863	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemvzQTM/search.json.mozlz4", (void 0)))
+1645605954923	Marionette	INFO	Listening on port 44651
+1645605955067	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645605955077	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:37495","noProxy":[],"sslProxy":"127.0.0.1:37495"}
+1645605957127	Marionette	INFO	Stopped listening on port 44651
+1645606038198	geckodriver	INFO	Listening on 127.0.0.1:42361
+1645606039214	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilez2uw96"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645606039623	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilez2uw96/search.json.mozlz4", (void 0)))
+1645606041763	Marionette	INFO	Listening on port 37795
+1645606041896	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645606041900	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42903","noProxy":[],"sslProxy":"127.0.0.1:42903"}
+1645606044920	Marionette	INFO	Stopped listening on port 37795
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645606089537	geckodriver	INFO	Listening on 127.0.0.1:48927
+1645606090544	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWxlxC2"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645606090937	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWxlxC2/search.json.mozlz4", (void 0)))
+1645606092812	Marionette	INFO	Listening on port 43731
+1645606092922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645606092930	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41555","noProxy":[],"sslProxy":"127.0.0.1:41555"}
+JavaScript error: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dhello&q=EhAqAQT5wBEzHAAAAAAAAAABGM3p15AGIhBQLiZK7Fd5UQWvpvdlk93qMgFy, line 1: SyntaxError: expected expression, got ','
+1645606096224	Marionette	INFO	Stopped listening on port 43731
+1645606147573	geckodriver	INFO	Listening on 127.0.0.1:35467
+1645606148582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGLjkX5"
+Error: no DISPLAY environment variable specified
+1645606175359	geckodriver	INFO	Listening on 127.0.0.1:52627
+1645606175365	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile06frdH"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645606175737	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile06frdH/search.json.mozlz4", (void 0)))
+1645606177719	Marionette	INFO	Listening on port 41845
+1645606177817	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645606177824	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:39127","noProxy":[],"sslProxy":"127.0.0.1:39127"}
+JavaScript error: https://www.google.com/sorry/index?continue=https://www.google.com/search%3Fq%3Dhello&q=EgSzf8Q_GKXq15AGIhAs9ZaFj_cIwkD-X4fnR2OJMgFy, line 1: SyntaxError: expected expression, got ','
+1645606218181	Marionette	INFO	Stopped listening on port 41845
+1645606228623	geckodriver	INFO	Listening on 127.0.0.1:56817
+1645606228634	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAt1mfA"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645606229014	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAt1mfA/search.json.mozlz4", (void 0)))
+1645606230987	Marionette	INFO	Listening on port 36443
+1645606231111	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645606231117	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42237","noProxy":[],"sslProxy":"127.0.0.1:42237"}
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_InsertNewFocusActionId) Channel closing: too late to send/recv, messages will be lost
+
+1645606279467	Marionette	INFO	Stopped listening on port 36443
+1645606331769	geckodriver	INFO	Listening on 127.0.0.1:34931
+1645606331781	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2lwPQq"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645606332143	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2lwPQq/search.json.mozlz4", (void 0)))
+1645606334225	Marionette	INFO	Listening on port 46605
+1645606334348	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645606334353	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:37307","noProxy":[],"sslProxy":"127.0.0.1:37307"}
+1645606344451	Marionette	INFO	Stopped listening on port 46605
+1645606715675	geckodriver	INFO	Listening on 127.0.0.1:34125
+1645606716688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilempfMnh"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645606717052	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilempfMnh/search.json.mozlz4", (void 0)))
+1645606719067	Marionette	INFO	Listening on port 35329
+1645606719142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645606719151	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:35905","noProxy":[],"sslProxy":"127.0.0.1:35905"}
+1645606743649	Marionette	INFO	Stopped listening on port 35329
+1645606993749	geckodriver	INFO	Listening on 127.0.0.1:54107
+1645606994758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQosF2n"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645606995182	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQosF2n/search.json.mozlz4", (void 0)))
+1645606996991	Marionette	INFO	Listening on port 43857
+1645606997135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645606997140	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:43073","noProxy":[],"sslProxy":"127.0.0.1:43073"}
+1645607002808	Marionette	INFO	Stopped listening on port 43857
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645607077944	geckodriver	INFO	Listening on 127.0.0.1:36011
+1645607077949	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT5m7KD"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645607078340	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT5m7KD/search.json.mozlz4", (void 0)))
+1645607080413	Marionette	INFO	Listening on port 46533
+1645607080538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645607080543	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45301","noProxy":[],"sslProxy":"127.0.0.1:45301"}
+1645607092300	Marionette	INFO	Stopped listening on port 46533
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645607104285	geckodriver	INFO	Listening on 127.0.0.1:60341
+1645607104291	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile0cpRL8"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645607104671	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0cpRL8/search.json.mozlz4", (void 0)))
+1645607106624	Marionette	INFO	Listening on port 44105
+1645607106743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645607106747	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:35665","noProxy":[],"sslProxy":"127.0.0.1:35665"}
+1645607112215	Marionette	INFO	Stopped listening on port 44105
+1645607119400	geckodriver	INFO	Listening on 127.0.0.1:58845
+1645607120408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekKvuxl"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645607120830	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekKvuxl/search.json.mozlz4", (void 0)))
+1645607122750	Marionette	INFO	Listening on port 45147
+1645607122874	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645607122880	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:43313","noProxy":[],"sslProxy":"127.0.0.1:43313"}
+1645607127159	Marionette	INFO	Stopped listening on port 45147
+1645607141000	geckodriver	INFO	Listening on 127.0.0.1:49359
+1645607141012	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZCbfrr"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645607141375	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZCbfrr/search.json.mozlz4", (void 0)))
+1645607143288	Marionette	INFO	Listening on port 42057
+1645607143369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645607143374	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:44859","noProxy":[],"sslProxy":"127.0.0.1:44859"}
+1645607152833	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645607171004	geckodriver	INFO	Listening on 127.0.0.1:55021
+1645607171008	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiyXdwS"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645607171372	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiyXdwS/search.json.mozlz4", (void 0)))
+1645607173422	Marionette	INFO	Listening on port 39649
+1645607173572	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645607173581	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42969","noProxy":[],"sslProxy":"127.0.0.1:42969"}
+1645607204438	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645607339263	geckodriver	INFO	Listening on 127.0.0.1:57953
+1645607339270	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1H7B5M"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645607339689	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1H7B5M/search.json.mozlz4", (void 0)))
+1645607341818	Marionette	INFO	Listening on port 36899
+1645607341915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645607341922	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41741","noProxy":[],"sslProxy":"127.0.0.1:41741"}
+1645607350250	Marionette	INFO	Stopped listening on port 36899
+1645607531770	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1645607563764	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1645608722768	geckodriver	INFO	Listening on 127.0.0.1:39155
+1645608723775	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJQn2Pp"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645608724287	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJQn2Pp/search.json.mozlz4", (void 0)))
+1645608726534	Marionette	INFO	Listening on port 36707
+1645608726647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645608726652	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:40169","noProxy":[],"sslProxy":"127.0.0.1:40169"}
+1645608734695	Marionette	INFO	Stopped listening on port 36707
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645608899419	geckodriver	INFO	Listening on 127.0.0.1:44233
+1645608900432	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehnLnJ5"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645608900829	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehnLnJ5/search.json.mozlz4", (void 0)))
+1645608903000	Marionette	INFO	Listening on port 42935
+1645608903075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645608903084	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45443","noProxy":[],"sslProxy":"127.0.0.1:45443"}
+1645608909704	geckodriver	INFO	Listening on 127.0.0.1:57647
+1645608909710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekYpbG7"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645608910125	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekYpbG7/search.json.mozlz4", (void 0)))
+1645608912177	Marionette	INFO	Listening on port 44035
+1645608912309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645608912315	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45391","noProxy":[],"sslProxy":"127.0.0.1:45391"}
+1645608920470	Marionette	INFO	Stopped listening on port 44035
+1645608921381	Marionette	INFO	Stopped listening on port 42935
+1645610415387	geckodriver	INFO	Listening on 127.0.0.1:57265
+1645610416398	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletuAbjy"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645610416775	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletuAbjy/search.json.mozlz4", (void 0)))
+1645610418592	Marionette	INFO	Listening on port 35147
+1645610418703	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645610418707	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:38217","noProxy":[],"sslProxy":"127.0.0.1:38217"}
+1645610433228	Marionette	INFO	Stopped listening on port 35147
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+1645610734441	geckodriver	INFO	Listening on 127.0.0.1:55849
+1645610735451	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefnsHWy"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645610735816	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefnsHWy/search.json.mozlz4", (void 0)))
+1645610737864	Marionette	INFO	Listening on port 44163
+1645610738000	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645610738006	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:36277","noProxy":[],"sslProxy":"127.0.0.1:36277"}
+1645610749015	Marionette	INFO	Stopped listening on port 44163
+1645611617893	geckodriver	INFO	Listening on 127.0.0.1:34625
+1645611618898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9bZDIy"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645611619288	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9bZDIy/search.json.mozlz4", (void 0)))
+1645611621343	Marionette	INFO	Listening on port 37349
+1645611621429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645611621435	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42957","noProxy":[],"sslProxy":"127.0.0.1:42957"}
+1645611646137	Marionette	INFO	Stopped listening on port 37349
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645611819544	geckodriver	INFO	Listening on 127.0.0.1:43921
+1645611819552	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejrzbdY"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645611819962	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejrzbdY/search.json.mozlz4", (void 0)))
+1645611822073	Marionette	INFO	Listening on port 45603
+1645611822189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645611822198	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45329","noProxy":[],"sslProxy":"127.0.0.1:45329"}
+1645611857184	Marionette	INFO	Stopped listening on port 45603
+1645612141913	geckodriver	INFO	Listening on 127.0.0.1:36305
+1645612142922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileF4c7bm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645612143359	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF4c7bm/search.json.mozlz4", (void 0)))
+1645612145458	Marionette	INFO	Listening on port 44733
+1645612145569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645612145573	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:36811","noProxy":[],"sslProxy":"127.0.0.1:36811"}
+1645612161509	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645612191513	geckodriver	INFO	Listening on 127.0.0.1:57351
+1645612192524	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHaDzJg"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645612192902	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHaDzJg/search.json.mozlz4", (void 0)))
+1645612194885	Marionette	INFO	Listening on port 44811
+1645612194999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645612195005	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:36151","noProxy":[],"sslProxy":"127.0.0.1:36151"}
+JavaScript error: https://duckduckgo.com/locale/en_US/duckduckgo14.js, line 1: ReferenceError: locale_data is not defined
+JavaScript error: https://duckduckgo.com/util/u611.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://duckduckgo.com/?q=hello&t=h_&ia=web, line 1: TypeError: DDG.Utils.WebVitals is undefined
+JavaScript error: https://duckduckgo.com/d3044.js, line 1: ReferenceError: l is not defined
+JavaScript error: https://duckduckgo.com/?q=hello&t=h_&ia=web, line 1: TypeError: DDG.ready is not a function
+JavaScript error: https://duckduckgo.com/g2769.js, line 1: ReferenceError: $ is not defined
+JavaScript error: https://duckduckgo.com/?q=hello&t=h_&ia=web, line 1: TypeError: DDG.ready is not a function
+JavaScript error: https://duckduckgo.com/?q=hello&t=h_&ia=web, line 1: TypeError: DDG.Pages.SERP is not a constructor
+1645612215177	Marionette	INFO	Stopped listening on port 44811
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645612297735	geckodriver	INFO	Listening on 127.0.0.1:52945
+1645612297741	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5asM94"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645612298099	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5asM94/search.json.mozlz4", (void 0)))
+1645612300069	Marionette	INFO	Listening on port 41385
+1645612300194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645612300201	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:32963","noProxy":[],"sslProxy":"127.0.0.1:32963"}
+1645612315995	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645612332144	geckodriver	INFO	Listening on 127.0.0.1:33877
+1645612333152	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYp9h5q"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645612333559	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYp9h5q/search.json.mozlz4", (void 0)))
+1645612335693	Marionette	INFO	Listening on port 36875
+1645612335809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645612335816	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42781","noProxy":[],"sslProxy":"127.0.0.1:42781"}
+1645612347517	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645612356987	geckodriver	INFO	Listening on 127.0.0.1:49515
+1645612356993	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHZP090"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645612357364	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHZP090/search.json.mozlz4", (void 0)))
+1645612359567	Marionette	INFO	Listening on port 45719
+1645612359635	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645612359640	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:40711","noProxy":[],"sslProxy":"127.0.0.1:40711"}
+1645612430911	Marionette	INFO	Stopped listening on port 45719
+1645612543901	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1645612688616	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1645612723987	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1645612818985	geckodriver	INFO	Listening on 127.0.0.1:35883
+1645612818992	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileq0rTjB"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645612819510	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileq0rTjB/search.json.mozlz4", (void 0)))
+1645612821892	Marionette	INFO	Listening on port 33923
+1645612821956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645612821968	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42289","noProxy":[],"sslProxy":"127.0.0.1:42289"}
+1645612822353	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645612827289	geckodriver	INFO	Listening on 127.0.0.1:55845
+1645612827299	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRCUSDm"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645612827720	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRCUSDm/search.json.mozlz4", (void 0)))
+1645612830012	Marionette	INFO	Listening on port 35589
+1645612830180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645612830188	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41811","noProxy":[],"sslProxy":"127.0.0.1:41811"}
+1645612861839	Marionette	INFO	Stopped listening on port 35589
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1645613058384	geckodriver	INFO	Listening on 127.0.0.1:37041
+1645613058392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7ShJxv"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613058794	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7ShJxv/search.json.mozlz4", (void 0)))
+1645613061011	Marionette	INFO	Listening on port 39441
+1645613061133	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613061137	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:37281","noProxy":[],"sslProxy":"127.0.0.1:37281"}
+1645613061665	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645613078516	geckodriver	INFO	Listening on 127.0.0.1:33971
+1645613078526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO9tptS"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613078910	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO9tptS/search.json.mozlz4", (void 0)))
+1645613081134	Marionette	INFO	Listening on port 36093
+1645613081209	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613081213	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45035","noProxy":[],"sslProxy":"127.0.0.1:45035"}
+1645613081578	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645613088975	geckodriver	INFO	Listening on 127.0.0.1:36057
+1645613088984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQKCeRu"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613089341	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQKCeRu/search.json.mozlz4", (void 0)))
+1645613091523	Marionette	INFO	Listening on port 36935
+1645613091686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613091695	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:36939","noProxy":[],"sslProxy":"127.0.0.1:36939"}
+1645613092205	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645613205080	geckodriver	INFO	Listening on 127.0.0.1:56929
+1645613206086	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefARqzN"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613206470	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefARqzN/search.json.mozlz4", (void 0)))
+1645613208445	Marionette	INFO	Listening on port 36343
+1645613208578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613208585	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41755","noProxy":[],"sslProxy":"127.0.0.1:41755"}
+1645613211124	geckodriver	INFO	Listening on 127.0.0.1:39789
+1645613211131	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilet24aum"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613211542	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet24aum/search.json.mozlz4", (void 0)))
+1645613213749	Marionette	INFO	Listening on port 34993
+1645613213847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613213853	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:34953","noProxy":[],"sslProxy":"127.0.0.1:34953"}
+1645613228850	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645613238055	geckodriver	INFO	Listening on 127.0.0.1:56535
+1645613239067	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenF2haF"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613239498	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenF2haF/search.json.mozlz4", (void 0)))
+1645613241886	Marionette	INFO	Listening on port 39843
+1645613242022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613242027	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:41775","noProxy":[],"sslProxy":"127.0.0.1:41775"}
+1645613244012	geckodriver	INFO	Listening on 127.0.0.1:51015
+1645613244019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7KZWKJ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613244497	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7KZWKJ/search.json.mozlz4", (void 0)))
+1645613247094	Marionette	INFO	Listening on port 37927
+1645613247167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613247172	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:43783","noProxy":[],"sslProxy":"127.0.0.1:43783"}
+1645613270663	Marionette	INFO	Stopped listening on port 36343
+1645613280601	Marionette	INFO	Stopped listening on port 39843
+1645613295319	Marionette	INFO	Stopped listening on port 37927
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645613661826	geckodriver	INFO	Listening on 127.0.0.1:35597
+1645613661841	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiGp1Wx"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613662237	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiGp1Wx/search.json.mozlz4", (void 0)))
+1645613664404	Marionette	INFO	Listening on port 38921
+1645613665910	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613665922	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:37189","noProxy":[],"sslProxy":"127.0.0.1:37189"}
+1645613700562	Marionette	INFO	Stopped listening on port 38921
+1645613747845	geckodriver	INFO	Listening on 127.0.0.1:57309
+1645613748859	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileW9jd21"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613749337	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileW9jd21/search.json.mozlz4", (void 0)))
+1645613751547	Marionette	INFO	Listening on port 44115
+1645613751629	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613751637	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:46395","noProxy":[],"sslProxy":"127.0.0.1:46395"}
+1645613779113	Marionette	INFO	Stopped listening on port 44115
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: IOUtils: Shutting down and refusing additional I/O tasks
+1645613799093	geckodriver	INFO	Listening on 127.0.0.1:34371
+1645613799100	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexAxpMz"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613799529	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexAxpMz/search.json.mozlz4", (void 0)))
+1645613801606	Marionette	INFO	Listening on port 37085
+1645613801731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613801737	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45653","noProxy":[],"sslProxy":"127.0.0.1:45653"}
+1645613854508	Marionette	INFO	Stopped listening on port 37085
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645613909272	geckodriver	INFO	Listening on 127.0.0.1:41575
+1645613910289	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLvaMuQ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645613910766	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLvaMuQ/search.json.mozlz4", (void 0)))
+1645613912961	Marionette	INFO	Listening on port 44739
+1645613913029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645613913035	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:38767","noProxy":[],"sslProxy":"127.0.0.1:38767"}
+1645613949342	Marionette	INFO	Stopped listening on port 44739
+1645614034315	geckodriver	INFO	Listening on 127.0.0.1:50539
+1645614035338	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoxNPN7"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645614035769	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoxNPN7/search.json.mozlz4", (void 0)))
+1645614037853	Marionette	INFO	Listening on port 36631
+1645614037993	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645614038003	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45121","noProxy":[],"sslProxy":"127.0.0.1:45121"}
+1645614053803	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645614069837	geckodriver	INFO	Listening on 127.0.0.1:57117
+1645614069849	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesqTimg"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645614070314	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesqTimg/search.json.mozlz4", (void 0)))
+1645614072466	Marionette	INFO	Listening on port 40767
+1645614072549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645614072557	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45373","noProxy":[],"sslProxy":"127.0.0.1:45373"}
+1645614085197	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645614099577	geckodriver	INFO	Listening on 127.0.0.1:53761
+1645614099582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2m7sfZ"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645614100052	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2m7sfZ/search.json.mozlz4", (void 0)))
+1645614102150	Marionette	INFO	Listening on port 36693
+1645614102266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645614102274	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:33747","noProxy":[],"sslProxy":"127.0.0.1:33747"}
+1645614145256	Marionette	INFO	Stopped listening on port 36693
+1645614300357	geckodriver	INFO	Listening on 127.0.0.1:49715
+1645614300368	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefUXAc2"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645614300804	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefUXAc2/search.json.mozlz4", (void 0)))
+1645614302895	Marionette	INFO	Listening on port 41837
+1645614303038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645614303049	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:34369","noProxy":[],"sslProxy":"127.0.0.1:34369"}
+1645614344198	Marionette	INFO	Stopped listening on port 41837
+
+###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
+
+1645614426056	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1645614460607	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1645614637590	geckodriver	INFO	Listening on 127.0.0.1:55999
+1645614638598	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDWy1Ua"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645614639021	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDWy1Ua/search.json.mozlz4", (void 0)))
+1645614641283	Marionette	INFO	Listening on port 46815
+1645614641406	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645614641413	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:45325","noProxy":[],"sslProxy":"127.0.0.1:45325"}
+1645614641803	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1645614919862	geckodriver	INFO	Listening on 127.0.0.1:48071
+1645614920877	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiLjeb7"
+*** You are running in headless mode.
+[GFX1-]: glxtest: libGL.so.1 missing
+[GFX1-]: glxtest: libEGL missing
+1645614921284	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiLjeb7/search.json.mozlz4", (void 0)))
+1645614923552	Marionette	INFO	Listening on port 45427
+1645614923641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645614923646	RemoteAgent	INFO	Proxy settings initialised: {"proxyType":"manual","httpProxy":"127.0.0.1:42205","noProxy":[],"sslProxy":"127.0.0.1:42205"}
+1645614955680	Marionette	INFO	Stopped listening on port 45427
+1645615029329	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1646132846676	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1646132881110	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1646133449879	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1653993504120	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653993666473	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653993720133	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653994206484	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653994456573	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653994457027	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653994459268	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653994555636	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653995397051	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653995442573	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+1653995998562	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
